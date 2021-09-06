@@ -1,0 +1,26 @@
+.dag-node {
+    border: 1px solid black
+}
+
+.dag-node .dag-details b {
+    display: inline-block;
+    border-radius: 13px;
+    background-color: black;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.dag-node .dag-content {
+    padding-left: 10px;
+}
+
+.prop-name {
+    font-weight: bold;
+}
+
+.prop-value {
+    padding-left: 10px;
+}
