@@ -24,6 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "deploy": "yarn build && ipfs add -Qr build | ipfs name publish -k dag-editor",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
